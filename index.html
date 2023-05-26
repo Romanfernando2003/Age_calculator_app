@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Calculadora de Edad</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/CSS/styles.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Calculadora de Edad</h1>
+
+    <div class="container">
+      <label for="dia">Día:</label>
+      <input type="text" id="dia" placeholder="Día" />
+
+      <label for="mes">Mes:</label>
+      <input type="text" id="mes" placeholder="Mes" />
+
+      <label for="anio">Año:</label>
+      <input type="text" id="anio" placeholder="Año" />
+
+      <button onclick="calcularEdad()">Calcular</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
